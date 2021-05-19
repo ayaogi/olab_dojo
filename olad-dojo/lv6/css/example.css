@@ -1,0 +1,99 @@
+
+header{
+  padding: 50px 0px;
+  background-color: #eee;
+}
+
+body{
+  margin: 0;
+  color: #444;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.profile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+  padding: 0px 50px;
+}
+
+.profile img{
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: double;
+  border-color: #ffaaff;
+}
+
+.profile h1{
+  margin: 0;
+  font-weight: normal;
+}
+
+.profile p{
+  margin: 0;
+}
+
+.like {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.like > h1{
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive,sans-serif;
+}
+
+.like > section{
+  margin-bottom: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.like > section > h1{
+  font-weight: normal;
+  text-align: center;
+}
+
+.like img{
+  margin-bottom: 20px;
+}
+
+.like p{
+  margin: 0;
+  text-align: initial;
+  text-indent: 1em;
+  line-height: 1.5;
+}
+
+.app-icon{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fadein{
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+  transform: translateY(30px);
+}
+
+.scrollin{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #eee;
+}
+
+footer p{
+  color: grey;
+}
